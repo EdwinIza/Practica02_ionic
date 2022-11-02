@@ -1,0 +1,145 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Catalogo</ion-title>
+  </ion-toolbar>
+
+  <ion-breadcrumbs>
+    <ion-breadcrumb href="/tabs/tab1">
+      <ion-icon
+        slot="end"
+        name="home-outline"
+      ></ion-icon>
+
+      Home
+    </ion-breadcrumb>
+
+    <ion-breadcrumb href="/tabs/tab2">
+      <ion-icon
+        slot="end"
+        name="bulb-outline"
+      ></ion-icon>
+
+      Quienes Somos
+    </ion-breadcrumb>
+
+    <ion-breadcrumb href="/tabs/tab4">
+      <ion-icon
+        slot="end"
+        name="storefront-outline"
+      ></ion-icon>
+
+      Sucursales
+    </ion-breadcrumb>
+  </ion-breadcrumbs>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-content>
+    <ion-title
+      class="ion-text-center"
+      color="danger"
+    >Peliculas / Series</ion-title>
+
+    <ion-list>
+      <ion-item (click)="strangerThings()">
+        <ion-label>Stranger Things</ion-label>
+
+        <ion-icon name="film-outline"></ion-icon>
+      </ion-item>
+
+      <ion-button (click)="presentActionSheet()">Opciones</ion-button>
+
+      <code *ngIf="result">{{ result }}</code>
+
+      <ion-item (click)="theWitcher()">
+        <ion-label>The Witcher</ion-label>
+
+        <ion-icon name="film-outline"></ion-icon>
+      </ion-item>
+
+      <ion-button (click)="presentActionSheet()">Opciones</ion-button>
+
+      <code *ngIf="result">{{ result }}</code>
+
+      <ion-item (click)="titanes()">
+        <ion-label>Titanes</ion-label>
+
+        <ion-icon name="film-outline"></ion-icon>
+      </ion-item>
+
+      <ion-button (click)="presentActionSheet()">Opciones</ion-button>
+
+      <code *ngIf="result">{{ result }}</code>
+
+      <ion-item (click)="losIlusionistas()">
+        <ion-label>Los Ilusionistas</ion-label>
+
+        <ion-icon name="film-outline"></ion-icon>
+      </ion-item>
+
+      <ion-button (click)="presentActionSheet()">Opciones</ion-button>
+
+      <code *ngIf="result">{{ result }}</code>
+
+      <ion-item (click)="pixeles()">
+        <ion-label>Pixeles</ion-label>
+
+        <ion-icon name="film-outline"></ion-icon>
+      </ion-item>
+
+      <ion-button (click)="presentActionSheet()">Opciones</ion-button>
+
+      <code *ngIf="result">{{ result }}</code>
+
+      <ion-item (click)="onePiece()">
+        <ion-label>One Piece</ion-label>
+
+        <ion-icon name="film-outline"></ion-icon>
+      </ion-item>
+
+      <ion-button (click)="presentActionSheet()">Opciones</ion-button>
+
+      <code *ngIf="result">{{ result }}</code>
+
+      <ion-item (click)="theFlash()">
+        <ion-label>The Flash</ion-label>
+
+        <ion-icon name="film-outline"></ion-icon>
+      </ion-item>
+
+      <ion-button (click)="presentActionSheet()">Opciones</ion-button>
+
+      <code *ngIf="result">{{ result }}</code>
+
+      <ion-item (click)="megamente()">
+        <ion-label>Megamente</ion-label>
+
+        <ion-icon name="film-outline"></ion-icon>
+      </ion-item>
+
+      <ion-button (click)="presentActionSheet()">Opciones</ion-button>
+
+      <code *ngIf="result">{{ result }}</code>
+
+      <ion-item (click)="juegodelCalamar()">
+        <ion-label>El Juego del Calamar</ion-label>
+
+        <ion-icon name="film-outline"></ion-icon>
+      </ion-item>
+
+      <ion-button (click)="presentActionSheet()">Opciones</ion-button>
+
+      <code *ngIf="result">{{ result }}</code>
+
+      <ion-item (click)="spiderman()">
+        <ion-label>Spiderman</ion-label>
+
+        <ion-icon name="film-outline"></ion-icon>
+      </ion-item>
+
+      <ion-button (click)="presentActionSheet()">Opciones</ion-button>
+
+      <code *ngIf="result">{{ result }}</code>
+    </ion-list>
+  </ion-content>
+</ion-content>
